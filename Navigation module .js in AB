@@ -1,0 +1,235 @@
+define(['jquery', '../helpers/jquery.mmenu.all.min'], function($) {
+  'use strict';
+
+  // NAVIGATION CLASS DEFINITION
+  // ==========================
+
+  function Navigation(element, options) {
+    var that = this;
+
+    this.options = options;
+    this.$navigation = $(element);
+
+    this.contentArr = [];
+    this.containerArr = [];
+
+    this.$navMenu = this.$navigation.find('.navmenuitem');
+    this.$currentDivContainer = null;
+    this.$currentContent = null;
+    this.$currentMenuItem = null;
+
+    // Setup
+    this.initNavigation();
+
+    // Tap handlers for iPad app. Register only if we have the correct environment.
+    var win = window;
+
+    if (win && win.webkit && win.webkit.messageHandlers && win.webkit.messageHandlers.tapAction) {
+      this.attachNativeEvents(win.webkit.messageHandlers.tapAction);
+    }
+
+    if (window.__modulelibrary__ && window.__modulelibrary__.searchIndex) {
+      this.attachSearchEvents(window.__modulelibrary__.searchIndex);
+    }
+  };
+
+  Navigation.DEFAULTS = {};
+
+  Navigation.prototype.initNavigation = function () {
+    var that = this;
+
+    //set home page which equal "home_link"
+    this.setHomePage();
+
+    var navbar = [
+      {
+        position: 'top',
+        content: [
+          '<div class="navigation__search">' +
+          '<input type="search" name="menu-search" id="menu-search" autocomplete="off">' +
+          '</div>'
+        ]
+      }
+    ];
+
+    if (window.webkit) {
+      navbar.push({
+        position: 'bottom',
+        content: [
+          '<a href="' + this.$navigation.data('kioskLink') + '" data-native-action="all-models">' +
+          '<span class="icon icon-home"></span>' + this.$navigation.data('kioskLinkTitle') +
+          '</a>'
+        ]
+      });
+    }
+
+    var rtl = false;
+    if($(".page").hasClass("rtl")){
+      rtl=true;
+    }
+
+
+
+    var settings = {
+      navbars: navbar,
+      offCanvas: {
+        position: 'right'
+      },
+      rtl:rtl
+    };
+
+    if (this.$navigation.data('showSearch')) {
+      settings['navbar'] = {
+        title: 'Home',
+        titleLink: 'parent'
+      };
+    }
+
+    this.$navigation.mmenu(settings);
+
+    // set event
+    this.clickMenuItem();
+  };
+
+  // set event click on menu item
+  Navigation.prototype.clickMenuItem = function () {
+      var that = this;
+
+      $('.navmenuitem .nav-button').click(function (e) {
+          var ind = 0;
+
+          e.preventDefault();
+
+          $('.nav-button').removeClass('selected');
+          if (that.$currentMenuItem) {
+              that.$currentMenuItem.removeClass('selected');
+          }
+          that.$currentMenuItem = $(this).addClass('selected');
+          $('.nav-button').each(function (index) {
+              if ($(this).hasClass('selected')) {
+                  ind = index;
+              }
+          });
+
+          // hide content
+          if (that.$currentDivContainer) {
+              that.$currentDivContainer.removeClass('active');
+              that.$currentDivContainer.children().detach();
+          }
+
+          // set new content
+          that.$currentContent = that.contentArr[ind];
+
+          // re-set active content and show it
+          if (that.$currentDivContainer) {
+              that.$currentDivContainer.append(that.$currentContent);
+              that.$currentDivContainer.addClass('active');
+          }
+      });
+  };
+
+  Navigation.prototype.setHomePage = function() {
+    var that = this;
+
+    $('.pagelist').each(function(){
+      if (($(this).hasClass('active'))) {
+        that.$currentContent = $(this).children();
+        that.$currentDivContainer = $(this);
+      }
+      that.containerArr.push($(this));
+      that.contentArr.push($(this).children());
+      $(this).children().detach();
+    });
+
+    this.$currentDivContainer.append(this.$currentContent);
+
+  };
+
+  function debounce(fn, delay) {
+    var timer = null;
+
+    return function () {
+      var context = this;
+      var args = arguments;
+
+      clearTimeout(timer);
+
+      timer = setTimeout(function () {
+        fn.apply(context, args);
+      }, delay);
+    };
+  }
+
+  function makeSearchResultItem(data) {
+    return '<li><a href="' + data.href + '">' +
+      '<span>' + data.longpager + '</span>' +
+      '<strong>' + data.title + '</strong>' +
+      '</a></li>';
+  }
+
+  Navigation.prototype.attachSearchEvents = function (searchIndex) {
+    var $menuSearch = $('#menu-search');
+    var $mmPanels = $('.mm-panels');
+    var $results = $('<ul class="navigation__results"></ul>');
+    var $noResults = $('<li><span>' + this.$navigation.data('noResults') + '</span></li>');
+
+    function search() {
+      var val = $menuSearch.val();
+
+      if (val.length > 1) {
+        var needle = new RegExp(val, 'gi');
+        var results = searchIndex.reduce(function (acc, item) {
+          if (needle.exec(item.search) !== null) {
+            acc.push(item);
+          }
+
+          return acc;
+        }, []);
+
+        $mmPanels.addClass('mm-panels--search-enabled');
+
+        if (results.length > 0) {
+          $results.html(results.map(makeSearchResultItem).join(''));
+        } else {
+          $results.append($noResults);
+        }
+      } else {
+        $results.html('');
+        $mmPanels.removeClass('mm-panels--search-enabled');
+      }
+    }
+
+    $mmPanels.append($results);
+
+    $menuSearch.on('input', debounce(search, 250));
+
+    $(document.body).on('click', '.open-menu', function () {
+      $menuSearch.val('');
+      search();
+    });
+  }
+
+  Navigation.prototype.attachNativeEvents = function (tapAction) {
+    $(document.body).on('click', '[data-native-action]', function (event) {
+      event.preventDefault();
+
+      tapAction.postMessage({
+        action: $(this).data('native-action') || null
+      });
+    });
+  };
+
+  // NAVIGATION PLUGIN DEFINITION
+  // ===========================
+
+  $.fn.navigation = function (option) {
+    return this.each(function () {
+      var $this   = $(this);
+      var options = $.extend({}, Navigation.DEFAULTS, $this.data(), typeof option === 'object' && option);
+
+      new Navigation(this, options);
+    });
+  };
+
+  $.fn.navigation.Constructor = Navigation;
+});
