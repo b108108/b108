@@ -1,0 +1,87 @@
+<div class="navbar-need-delete" style="height: 45px;" data-ko-block="<%= @new_module_name %>">
+  <div data-ko-display="blockVisible" style="-ko-attr-exportbin: @exportBin">
+    <div class="module-wrapper navbar" data-module="nav">
+      <a data-ko-display="jumpmarksVisible" style="-ko-attr-jumpmark-name: @jumpmarksVisible"></a>
+      <div class="module">
+        <a href="#" class="back back--back" data-ko-link="<%="#{@new_module_name}_configuration.#{@new_module_name}_navigation_home_url"%>">
+          <span class="icon icon-previous"></span>
+        </a>
+        <a href="#" class="back back--index" data-native-action="all-models"
+           data-ko-link="<%="#{@new_module_name}_configuration.#{@new_module_name}_navigation_home_url"%>">
+          <span class="icon icon-home"></span>
+        </a>
+        <a href="#menu" class="open-menu"><span class="icon icon-menu"></span></a>
+        <a href="#menu" class="close-menu"><span class="icon icon-close"></span></a>
+      </div>
+    </div>
+
+    <div class="module viewcontent">
+      <div class="container">
+        <div class="pagelist active">
+          <div class="instance">
+            <div style="-ko-attr-tab-article-name: <%="@#{@new_module_name}_configuration.#{@new_module_name}_home_link"%>"></div>
+          </div>
+        </div>
+        <% for i in 0..@parameters[:second_level_menus_count].length.to_i-1%>
+            <% if @parameters[:second_level_menus_count][i].to_i > 0 %>
+                <% for j in 0..@parameters[:second_level_menus_count][i].to_i-1 %>
+                    <div class="pagelist">
+                      <div class="instance">
+                        <div style="-ko-attr-tab-article-name: <%="@#{@new_module_name}_first_level_column_#{i}.#{@new_module_name}_second_level_#{i}_column_#{j}_url"%>"></div>
+                      </div>
+                    </div>
+                <% end %>
+            <% else %>
+                <div class="pagelist">
+                  <div class="instance">
+                    <div style="-ko-attr-tab-article-name: <%="#{@new_module_name}_first_level_column_#{i}.#{@new_module_name}_first_level_column_#{i}_url"%>"></div>
+                  </div>
+                </div>
+            <% end %>
+        <% end %>
+      </div>
+    </div>
+
+
+    <nav id="menu" data-module="navigation" data-kiosk-link-title="" data-kiosk-link="#" data-no-results="" data-search-visible="false"
+         style="-ko-attr-data-kiosk-link: <%= "@[#{@new_module_name}_configuration.#{@new_module_name}_kiosk_link]" %>;
+                -ko-attr-data-kiosk-link-title: <%="@[#{@new_module_name}_configuration.#{@new_module_name}_kiosk_link_title]" %>;
+                -ko-attr-datasearchvisible: <%= "@[#{@new_module_name}_configuration.#{@new_module_name}_show_search]" %>;
+                -ko-attr-data-no-results: <%= "@[#{@new_module_name}_configuration.#{@new_module_name}_no_results]" %>">
+      <ul class="navmenuitem">
+        <li class="home">
+          <a href="" class="nav-button selected"
+             style="-ko-bind-html: <%="@#{@new_module_name}_configuration.#{@new_module_name}_home_title"%>">
+            <span style="display: none;" class="text-id-holder"></span>Please, select text
+          </a>
+        </li>
+        <% for i in 0..@parameters[:second_level_menus_count].length.to_i-1%>
+          <% if @parameters[:second_level_menus_count][i].to_i > 0 %>
+            <li>
+              <span style="-ko-bind-html: <%="@#{@new_module_name}_first_level_column_#{i}.#{@new_module_name}_first_level_column_#{i}_title"%>">
+                <span style="display: none;" class="text-id-holder"></span>Please, select text
+              </span>
+              <ul class="navmenuitem">
+                <% for j in 0..@parameters[:second_level_menus_count][i].to_i-1 %>
+                  <li>
+                    <a href="" class="nav-button "
+                       style="-ko-bind-html: <%="@#{@new_module_name}_first_level_column_#{i}.#{@new_module_name}_second_level_#{i}_column_#{j}_title"%>">
+                      <span style="display: none;" class="text-id-holder"></span>Please, select text
+                    </a>
+                  </li>
+                <% end %>
+              </ul>
+            </li>
+          <% else %>
+            <li>
+              <a href="" class="nav-button" data-ko-link="<%="#{@new_module_name}_first_level_column_#{i}.#{@new_module_name}_first_level_column_#{i}_url"%>"
+                 style="-ko-bind-html: <%="@#{@new_module_name}_first_level_column_#{i}.#{@new_module_name}_first_level_column_#{i}_title"%>">
+                <span style="display: none;" class="text-id-holder"></span>Please, select text
+              </a>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</div>
