@@ -1,0 +1,400 @@
+﻿<ion-header>
+  <!--<ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+    -->
+</ion-header>
+
+<ion-content>
+    <div class="app">
+        <div class="filters-wrapper">
+        </div>
+        <div class="page-category page-home">
+            <div class="filters">
+                <div class="filters__titles">
+                    <a href="filters-1" class="filters__titles__item filters__titles__item--active">Без</a>
+                    <a href="filters-2" class="filters__titles__item">Только с</a>
+                </div>
+                <div class="filters__content filters__content--active" id="filters-1">
+                    <a href="javascript:void(0);" class="filters__item">лук</a>
+                    <a href="javascript:void(0);" class="filters__item">авокадо</a>
+                    <a href="javascript:void(0);" class="filters__item">лосось</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">угорь</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">тунец</a>
+                    <a href="javascript:void(0);" class="filters__item">сыр Филадельфия</a>
+                    <a href="javascript:void(0);" class="filters__item">креветки</a>
+                    <a href="javascript:void(0);" class="filters__item">лук</a>
+                    <a href="javascript:void(0);" class="filters__item">авокадо</a>
+                    <a href="javascript:void(0);" class="filters__item">лосось</a>
+                    <a href="javascript:void(0);" class="filters__item">угорь</a>
+                </div>
+                <div class="filters__content" id="filters-2">
+                    <a href="javascript:void(0);" class="filters__item">лук</a>
+                    <a href="javascript:void(0);" class="filters__item">авокадо</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">лосось</a>
+                    <a href="javascript:void(0);" class="filters__item">угорь</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">тунец</a>
+                    <a href="javascript:void(0);" class="filters__item">сыр Филадельфия</a>
+                    <a href="javascript:void(0);" class="filters__item">креветки</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">лук</a>
+                    <a href="javascript:void(0);" class="filters__item">авокадо</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">лосось</a>
+                    <a href="javascript:void(0);" class="filters__item">угорь</a>
+                    <a href="javascript:void(0);" class="filters__item">креветки</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">лук</a>
+                    <a href="javascript:void(0);" class="filters__item">авокадо</a>
+                    <a href="javascript:void(0);" class="filters__item filters__item--active-item">тунец</a>
+                    <a href="javascript:void(0);" class="filters__item">сыр Филадельфия</a>
+                </div>
+                <a href="javascript:void(0);" class="btn">Применить</a>
+            </div>
+
+            <div class="category-header">
+                <!--<a href="javascript:void(0);" class="icon-back"></a>-->
+                <button ion-button=ion-button  (click)="gotoMenu()">
+                    <span class="icon-back"></span>
+                </button>
+
+                <div class="header-title">
+                    <div class="logo"></div>
+                </div>
+                <a href="javascript:void(0);" class="icon-filter"></a>
+            </div>
+            <div class="home-content">
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/3.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/2.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                    <div class="spicy-block">
+                        <span class="icon-shape"></span>
+                        <span class="icon-shape"></span>
+                    </div>
+                    <div class="category-price">
+                        350
+                        <?xml version="1.0" encoding="UTF-8" ?>
+                        <svg width="7.5px" height="11px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>ruble_white</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hm_product" transform="translate(-97.000000, -353.000000)" fill="#FFFFFF">
+                                    <g id="Group-8" transform="translate(12.000000, 344.000000)">
+                                        <g id="Group-7">
+                                            <g id="ruble_white" transform="translate(85.000000, 9.000000)">
+                                                <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="category-price-old">
+                            650
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <svg width="6.1px" height="9px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>ruble_dark</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="ruble_dark" fill="#fff">
+                                        <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/2.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/1.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                    <div class="spicy-block">
+                        <span class="icon-shape"></span>
+                        <span class="icon-shape"></span>
+                    </div>
+                    <div class="category-price">
+                        350
+                        <?xml version="1.0" encoding="UTF-8" ?>
+                        <svg width="7.5px" height="11px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>ruble_white</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hm_product" transform="translate(-97.000000, -353.000000)" fill="#FFFFFF">
+                                    <g id="Group-8" transform="translate(12.000000, 344.000000)">
+                                        <g id="Group-7">
+                                            <g id="ruble_white" transform="translate(85.000000, 9.000000)">
+                                                <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="category-price-old">
+                            650
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <svg width="6.1px" height="9px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>ruble_dark</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="ruble_dark" fill="#fff">
+                                        <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-item full-width">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/p7.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КЛАССИЧЕСКИЕ РОЛЛЫ ЗА 200
+                    </div>
+                    <div class="category-price">
+                        350
+                        <?xml version="1.0" encoding="UTF-8" ?>
+                        <svg width="7.5px" height="11px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>ruble_white</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hm_product" transform="translate(-97.000000, -353.000000)" fill="#FFFFFF">
+                                    <g id="Group-8" transform="translate(12.000000, 344.000000)">
+                                        <g id="Group-7">
+                                            <g id="ruble_white" transform="translate(85.000000, 9.000000)">
+                                                <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="category-price-old">
+                            650
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <svg width="6.1px" height="9px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>ruble_dark</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="ruble_dark" fill="#fff">
+                                        <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/2.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                    <div class="spicy-block">
+                        <span class="icon-shape"></span>
+                        <span class="icon-shape"></span>
+                    </div>
+                    <div class="category-price">
+                        350
+                        <?xml version="1.0" encoding="UTF-8" ?>
+                        <svg width="7.5px" height="11px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>ruble_white</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hm_product" transform="translate(-97.000000, -353.000000)" fill="#FFFFFF">
+                                    <g id="Group-8" transform="translate(12.000000, 344.000000)">
+                                        <g id="Group-7">
+                                            <g id="ruble_white" transform="translate(85.000000, 9.000000)">
+                                                <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="category-price-old">
+                            650
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <svg width="6.1px" height="9px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>ruble_dark</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="ruble_dark" fill="#fff">
+                                        <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/2.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                </div>
+                <div class="home-item full-width">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/p7.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КЛАССИЧЕСКИЕ РОЛЛЫ ЗА 200
+                    </div>
+                    <div class="category-price">
+                        350
+                        <?xml version="1.0" encoding="UTF-8" ?>
+                        <svg width="7.5px" height="11px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>ruble_white</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hm_product" transform="translate(-97.000000, -353.000000)" fill="#FFFFFF">
+                                    <g id="Group-8" transform="translate(12.000000, 344.000000)">
+                                        <g id="Group-7">
+                                            <g id="ruble_white" transform="translate(85.000000, 9.000000)">
+                                                <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="category-price-old">
+                            650
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <svg width="6.1px" height="9px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>ruble_dark</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="ruble_dark" fill="#fff">
+                                        <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/3.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                </div>
+                <div class="home-item">
+                    <div class="shadow_bottom"></div>
+                    <div class="product-img">
+                        <img src="assets/images/2.jpg" alt="">
+                    </div>
+                    <div class="home-item-name">
+                        КАЛИФОРНИЯ
+                        С КРЕВЕТКОЙ
+                    </div>
+                    <div class="spicy-block">
+                        <span class="icon-shape"></span>
+                        <span class="icon-shape"></span>
+                    </div>
+                    <div class="category-price">
+                        350
+                        <?xml version="1.0" encoding="UTF-8" ?>
+                        <svg width="7.5px" height="11px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <title>ruble_white</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs></defs>
+                            <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="hm_product" transform="translate(-97.000000, -353.000000)" fill="#FFFFFF">
+                                    <g id="Group-8" transform="translate(12.000000, 344.000000)">
+                                        <g id="Group-7">
+                                            <g id="ruble_white" transform="translate(85.000000, 9.000000)">
+                                                <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="category-price-old">
+                            650
+                            <?xml version="1.0" encoding="UTF-8" ?>
+                            <svg width="6.1px" height="9px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>ruble_dark</title>
+                                <desc>Created with Sketch.</desc>
+                                <defs></defs>
+                                <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="ruble_dark" fill="#fff">
+                                        <path d="M3.42494715,15.8041648 L7.56353182,15.8041648 C8.38926976,15.8041648 9.05866263,16.4735577 9.05866263,17.2992956 C9.05866263,18.1250336 8.38926976,18.7944264 7.56353182,18.7944264 L3.42494715,18.7944264 L3.42494715,20.3148936 C3.42494715,21.2510638 2.66384778,22 1.71247357,22 C0.761099366,22 0,21.2510638 0,20.3148936 L0,1.65390071 C0,0.655319149 0.665961945,0 1.64904863,0 L7.92811839,0 C11.3530655,0 15,2.15319149 15,6.67801418 C15,11.2340426 11.3530655,13.3560284 7.92811839,13.3560284 L3.42494715,13.3560284 L3.42494715,15.8041648 Z M3.42494715,10.2978723 L7.45243129,10.2978723 C9.83086681,10.2978723 11.5750529,9.08085106 11.5750529,6.67801418 C11.5750529,4.24397163 9.83086681,3.05815603 7.45243129,3.05815603 L3.42494715,3.05815603 L3.42494715,10.2978723 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-footer">
+                <div class="btn-group">
+                    <a href="javascript:void(0);" class="btn-group-item item-active">
+                        <span class="icon-home"></span>
+                    </a>
+                    <a href="javascript:void(0);" class="btn-group-item">
+                        <span class="icon-basket"></span>
+                        <span class="link-counter">3</span>
+                    </a>
+                    <a href="javascript:void(0);" class="btn-group-item">
+                        <span class="icon-person"></span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</ion-content>

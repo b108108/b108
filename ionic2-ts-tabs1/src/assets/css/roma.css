@@ -1,0 +1,31 @@
+body .current-opros__item .opros-map__stage,
+body .opros-map__stage {
+	letter-spacing: 0;
+}
+
+body .page-info__content::after {
+	bottom: 10%;
+}
+
+body .icon-score-star {
+	margin-right: 20px;
+}
+
+body .opros-score-text {
+	margin-top: 25px;
+}
+
+body .page-opros a {
+	margin-top: 0;
+}
+
+body .opros-footer .btn-group {
+	margin-top: 10px;
+}
+
+@media screen and (orientation: landscape) {
+	body .app {
+		overflow: auto;
+		overflow-x: hidden;
+	}
+}

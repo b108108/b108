@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="3px" viewBox="0 0 10 3" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>small_minus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hm_cart" transform="translate(-286.000000, -155.000000)" fill="#CFD8DC">
+            <g id="Group-5" transform="translate(15.000000, 107.000000)">
+                <g id="small_minus" transform="translate(271.000000, 48.000000)">
+                    <path d="M1.65800041,0.437682535 C0.971158192,0.437682535 0.394210729,1.01463 0.394210729,1.70147222 C0.394210729,2.38831443 0.971158192,2.9652619 1.65800041,2.9652619 L7.97694881,2.9652619 C8.66379103,2.9652619 9.24073849,2.38831443 9.24073849,1.70147222 C9.24073849,1.01463 8.66379103,0.437682535 7.97694881,0.437682535 L1.65800041,0.437682535 Z" id="-"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

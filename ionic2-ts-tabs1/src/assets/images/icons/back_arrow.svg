@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>back_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hm_cart_confirm" transform="translate(-13.000000, -24.000000)">
+            <g id="back_arrow" transform="translate(13.000000, 24.000000)">
+                <circle id="Oval-2" fill="#232222" cx="15.9858871" cy="16.0141129" r="15.9858871"></circle>
+                <g id="Page-1" transform="translate(9.290323, 10.322581)" fill-rule="nonzero" fill="#FFFFFF">
+                    <path d="M3.70531108,4.64516129 L6.91203481,1.68702543 C7.330397,1.30109502 7.330397,0.675378207 6.91203481,0.289447803 C6.49367263,-0.0964826011 5.8153735,-0.0964826011 5.39701132,0.289447803 L0.31377164,4.97863054 C-0.104590547,5.36456095 -0.104590547,5.99027776 0.31377164,6.37620817 L5.39701132,11.0653909 C5.8153735,11.4513213 6.49367263,11.4513213 6.91203481,11.0653909 C7.330397,10.6794605 7.330397,10.0537437 6.91203481,9.66781328 L3.70531108,6.70967742 L11.8709677,6.70967742 C12.4410681,6.70967742 12.9032258,6.24751974 12.9032258,5.67741935 C12.9032258,5.10731897 12.4410681,4.64516129 11.8709677,4.64516129 L3.70531108,4.64516129 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

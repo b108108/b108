@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-#1" transform="translate(-16.000000, -26.000000)">
+            <g id="close" transform="translate(16.000000, 26.000000)">
+                <circle id="Oval-2" fill="#FFFFFF" cx="12.9885333" cy="12.9885333" r="12.9885333"></circle>
+                <g id="Page-1" transform="translate(8.000000, 8.000000)" fill-rule="nonzero" fill="#44474A">
+                    <path d="M0.240498831,1.40172991 L8.0788086,9.24003968 C8.39947371,9.56070479 8.91937457,9.56070479 9.24003968,9.24003968 C9.56070479,8.91937457 9.56070479,8.39947371 9.24003968,8.0788086 L1.40172991,0.240498831 C1.0810648,-0.0801662769 0.561163938,-0.0801662769 0.240498831,0.240498831 C-0.0801662769,0.561163938 -0.0801662769,1.0810648 0.240498831,1.40172991 Z" id="Combined-Shape"></path>
+                    <path d="M1.40172991,9.24003968 L9.24003968,1.40172991 C9.56070479,1.0810648 9.56070479,0.561163938 9.24003968,0.240498831 C8.91937457,-0.0801662769 8.39947371,-0.0801662769 8.0788086,0.240498831 L0.240498831,8.0788086 C-0.0801662769,8.39947371 -0.0801662769,8.91937457 0.240498831,9.24003968 C0.561163938,9.56070479 1.0810648,9.56070479 1.40172991,9.24003968 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,190 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3450996, 2017-09-13T07:08:47-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: CoreSansDS15Thin by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/thin/
+ * 
+ * Webfont: CoreSansDS25Light by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/light/
+ * 
+ * Webfont: CoreSansDS17CnThinItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-thin-italic/
+ * 
+ * Webfont: CoreSansDS15ThinItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/thin-italic/
+ * 
+ * Webfont: CoreSansDS25LightItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/light-italic/
+ * 
+ * Webfont: CoreSansDS17CnThin by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-thin/
+ * 
+ * Webfont: CoreSansDS27CnLight by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-light/
+ * 
+ * Webfont: CoreSansDS27CnLightItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-light-italic/
+ * 
+ * Webfont: CoreSansDS35Regular by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/regular/
+ * 
+ * Webfont: CoreSansDS35RegularItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/regular-italic/
+ * 
+ * Webfont: CoreSansDS37CnRegular by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-regular/
+ * 
+ * Webfont: CoreSansDS37CnRegularItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-regular-italic/
+ * 
+ * Webfont: CoreSansDS45Medium by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/medium/
+ * 
+ * Webfont: CoreSansDS45MediumItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/medium-italic/
+ * 
+ * Webfont: CoreSansDS47CnMedium by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-medium/
+ * 
+ * Webfont: CoreSansDS47CnMediumItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-medium-italic/
+ * 
+ * Webfont: CoreSansDS55Bold by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/bold/
+ * 
+ * Webfont: CoreSansDS55BoldItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/bold-italic/
+ * 
+ * Webfont: CoreSansDS57CnBold by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-bold/
+ * 
+ * Webfont: CoreSansDS57CnBoldItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-bold-italic/
+ * 
+ * Webfont: CoreSansDS65Heavy by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/heavy/
+ * 
+ * Webfont: CoreSansDS65HeavyItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/heavy-italic/
+ * 
+ * Webfont: CoreSansDS67CnHeavy by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-heavy/
+ * 
+ * Webfont: CoreSansDS67CnHeavyItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-heavy-italic/
+ * 
+ * Webfont: CoreSansDS75Black by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/black/
+ * 
+ * Webfont: CoreSansDS75BlackItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/black-italic/
+ * 
+ * Webfont: CoreSansDS77CnBlack by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/cn-black/
+ * 
+ * Webfont: CoreSansDS77CnBlackItalic by S-Core
+ * URL: https://www.myfonts.com/fonts/s-core/core-sans-ds/ch-black-italic/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3450996
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) S-Core Co., Ltd., 2016. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34a874");
+
+  
+@font-face {font-family: 'CoreSansDS15Thin';src: url('webfonts/34A874_0_0.eot');src: url('webfonts/34A874_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_0_0.woff2') format('woff2'),url('webfonts/34A874_0_0.woff') format('woff'),url('webfonts/34A874_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS25Light';src: url('webfonts/34A874_1_0.eot');src: url('webfonts/34A874_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_1_0.woff2') format('woff2'),url('webfonts/34A874_1_0.woff') format('woff'),url('webfonts/34A874_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS17CnThinItalic';src: url('webfonts/34A874_2_0.eot');src: url('webfonts/34A874_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_2_0.woff2') format('woff2'),url('webfonts/34A874_2_0.woff') format('woff'),url('webfonts/34A874_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS15ThinItalic';src: url('webfonts/34A874_3_0.eot');src: url('webfonts/34A874_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_3_0.woff2') format('woff2'),url('webfonts/34A874_3_0.woff') format('woff'),url('webfonts/34A874_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS25LightItalic';src: url('webfonts/34A874_4_0.eot');src: url('webfonts/34A874_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_4_0.woff2') format('woff2'),url('webfonts/34A874_4_0.woff') format('woff'),url('webfonts/34A874_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS17CnThin';src: url('webfonts/34A874_5_0.eot');src: url('webfonts/34A874_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_5_0.woff2') format('woff2'),url('webfonts/34A874_5_0.woff') format('woff'),url('webfonts/34A874_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS27CnLight';src: url('webfonts/34A874_6_0.eot');src: url('webfonts/34A874_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_6_0.woff2') format('woff2'),url('webfonts/34A874_6_0.woff') format('woff'),url('webfonts/34A874_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS27CnLightItalic';src: url('webfonts/34A874_7_0.eot');src: url('webfonts/34A874_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_7_0.woff2') format('woff2'),url('webfonts/34A874_7_0.woff') format('woff'),url('webfonts/34A874_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS35Regular';src: url('webfonts/34A874_8_0.eot');src: url('webfonts/34A874_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_8_0.woff2') format('woff2'),url('webfonts/34A874_8_0.woff') format('woff'),url('webfonts/34A874_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS35RegularItalic';src: url('webfonts/34A874_9_0.eot');src: url('webfonts/34A874_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_9_0.woff2') format('woff2'),url('webfonts/34A874_9_0.woff') format('woff'),url('webfonts/34A874_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS37CnRegular';src: url('webfonts/34A874_A_0.eot');src: url('webfonts/34A874_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_A_0.woff2') format('woff2'),url('webfonts/34A874_A_0.woff') format('woff'),url('webfonts/34A874_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS37CnRegularItalic';src: url('webfonts/34A874_B_0.eot');src: url('webfonts/34A874_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_B_0.woff2') format('woff2'),url('webfonts/34A874_B_0.woff') format('woff'),url('webfonts/34A874_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS45Medium';src: url('webfonts/34A874_C_0.eot');src: url('webfonts/34A874_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_C_0.woff2') format('woff2'),url('webfonts/34A874_C_0.woff') format('woff'),url('webfonts/34A874_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS45MediumItalic';src: url('webfonts/34A874_D_0.eot');src: url('webfonts/34A874_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_D_0.woff2') format('woff2'),url('webfonts/34A874_D_0.woff') format('woff'),url('webfonts/34A874_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS47CnMedium';src: url('webfonts/34A874_E_0.eot');src: url('webfonts/34A874_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_E_0.woff2') format('woff2'),url('webfonts/34A874_E_0.woff') format('woff'),url('webfonts/34A874_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS47CnMediumItalic';src: url('webfonts/34A874_F_0.eot');src: url('webfonts/34A874_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_F_0.woff2') format('woff2'),url('webfonts/34A874_F_0.woff') format('woff'),url('webfonts/34A874_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS55Bold';src: url('webfonts/34A874_10_0.eot');src: url('webfonts/34A874_10_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_10_0.woff2') format('woff2'),url('webfonts/34A874_10_0.woff') format('woff'),url('webfonts/34A874_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS55BoldItalic';src: url('webfonts/34A874_11_0.eot');src: url('webfonts/34A874_11_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_11_0.woff2') format('woff2'),url('webfonts/34A874_11_0.woff') format('woff'),url('webfonts/34A874_11_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS57CnBold';src: url('webfonts/34A874_12_0.eot');src: url('webfonts/34A874_12_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_12_0.woff2') format('woff2'),url('webfonts/34A874_12_0.woff') format('woff'),url('webfonts/34A874_12_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS57CnBoldItalic';src: url('webfonts/34A874_13_0.eot');src: url('webfonts/34A874_13_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_13_0.woff2') format('woff2'),url('webfonts/34A874_13_0.woff') format('woff'),url('webfonts/34A874_13_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS65Heavy';src: url('webfonts/34A874_14_0.eot');src: url('webfonts/34A874_14_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_14_0.woff2') format('woff2'),url('webfonts/34A874_14_0.woff') format('woff'),url('webfonts/34A874_14_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS65HeavyItalic';src: url('webfonts/34A874_15_0.eot');src: url('webfonts/34A874_15_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_15_0.woff2') format('woff2'),url('webfonts/34A874_15_0.woff') format('woff'),url('webfonts/34A874_15_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS67CnHeavy';src: url('webfonts/34A874_16_0.eot');src: url('webfonts/34A874_16_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_16_0.woff2') format('woff2'),url('webfonts/34A874_16_0.woff') format('woff'),url('webfonts/34A874_16_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS67CnHeavyItalic';src: url('webfonts/34A874_17_0.eot');src: url('webfonts/34A874_17_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_17_0.woff2') format('woff2'),url('webfonts/34A874_17_0.woff') format('woff'),url('webfonts/34A874_17_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS75Black';src: url('webfonts/34A874_18_0.eot');src: url('webfonts/34A874_18_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_18_0.woff2') format('woff2'),url('webfonts/34A874_18_0.woff') format('woff'),url('webfonts/34A874_18_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS75BlackItalic';src: url('webfonts/34A874_19_0.eot');src: url('webfonts/34A874_19_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_19_0.woff2') format('woff2'),url('webfonts/34A874_19_0.woff') format('woff'),url('webfonts/34A874_19_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS77CnBlack';src: url('webfonts/34A874_1A_0.eot');src: url('webfonts/34A874_1A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_1A_0.woff2') format('woff2'),url('webfonts/34A874_1A_0.woff') format('woff'),url('webfonts/34A874_1A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'CoreSansDS77CnBlackItalic';src: url('webfonts/34A874_1B_0.eot');src: url('webfonts/34A874_1B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34A874_1B_0.woff2') format('woff2'),url('webfonts/34A874_1B_0.woff') format('woff'),url('webfonts/34A874_1B_0.ttf') format('truetype');}
+ 

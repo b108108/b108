@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hmapp_login-copy-4" transform="translate(-330.000000, -24.000000)">
+            <g id="list" transform="translate(330.000000, 24.000000)">
+                <circle id="Oval-2" fill-opacity="0.287307518" fill="#44474A" cx="15" cy="15.0273438" r="15"></circle>
+                <path d="M8.42626953,13 L22.3046,13 C22.8568847,13 23.3046,12.5522847 23.3046,12 C23.3046,11.4477153 22.8568847,11 22.3046,11 L8.42626953,11 C7.87398478,11 7.42626953,11.4477153 7.42626953,12 C7.42626953,12.5522847 7.87398478,13 8.42626953,13 Z" id="Line-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M8.42626953,20 L22.3046,20 C22.8568847,20 23.3046,19.5522847 23.3046,19 C23.3046,18.4477153 22.8568847,18 22.3046,18 L8.42626953,18 C7.87398478,18 7.42626953,18.4477153 7.42626953,19 C7.42626953,19.5522847 7.87398478,20 8.42626953,20 Z" id="Line-2" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

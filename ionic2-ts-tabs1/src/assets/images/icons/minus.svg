@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>minus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hm_product" transform="translate(-16.000000, -561.000000)">
+            <g id="Group-10" transform="translate(16.000000, 553.000000)">
+                <g id="Group-9" transform="translate(0.000000, 7.000000)">
+                    <g id="minus" transform="translate(0.000000, 1.000000)">
+                        <circle id="Oval-2" fill="#F1F5F6" cx="14.5" cy="14.5" r="14.5"></circle>
+                        <g id="Group-5" transform="translate(9.000000, 13.000000)" fill="#73808D">
+                            <path d="M1.77198794,0.46777321 C1.03792532,0.46777321 0.421312717,1.08438581 0.421312717,1.81844843 C0.421312717,2.55251105 1.03792532,3.16912365 1.77198794,3.16912365 L8.52536404,3.16912365 C9.25942667,3.16912365 9.87603927,2.55251105 9.87603927,1.81844843 C9.87603927,1.08438581 9.25942667,0.46777321 8.52536404,0.46777321 L1.77198794,0.46777321 Z" id="-"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

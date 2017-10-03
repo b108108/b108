@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="26px" viewBox="0 0 21 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>home</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-3" transform="translate(-27.000000, -12.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="home" transform="translate(27.000000, 12.000000)">
+                <path d="M2,9.08379322 L2,19.1379473 C2,21.3470863 3.790861,23.1379473 6,23.1379473 L14.9729026,23.1379473 C17.1820416,23.1379473 18.9729026,21.3470863 18.9729026,19.1379473 L18.9729026,9.10500744 L10.3228521,2.52879198 L2,9.08379322 Z M0,8.11315524 L10.3012324,0 L20.9729026,8.11315524 L20.9729026,19.1379473 C20.9729026,22.4516558 18.2866111,25.1379473 14.9729026,25.1379473 L6,25.1379473 C2.6862915,25.1379473 1.87739444e-15,22.4516558 0,19.1379473 L0,8.11315524 Z" id="Rectangle-8"></path>
+                <polygon id="Rectangle-9" points="12.5483871 17.9354839 12.5483871 25.0790701 14.5483871 25.0790701 14.5483871 15.9354839 6.4516129 15.9354839 6.4516129 25.0790701 8.4516129 25.0790701 8.4516129 17.9354839"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

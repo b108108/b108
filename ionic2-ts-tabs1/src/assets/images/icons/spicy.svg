@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-31.4%" y="-31.8%" width="162.8%" height="172.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.630038496 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Loyalty-App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hm_home" transform="translate(-289.000000, -191.000000)" fill-rule="nonzero" fill="#FF003E">
+            <g id="Group-2-Copy" filter="url(#filter-1)" transform="translate(185.000000, 63.000000)">
+                <g id="Group" transform="translate(17.000000, 152.000000)">
+                    <g id="spicy" transform="translate(109.000000, 4.000000)">
+                        <path d="M16.7306452,9.56034226 C16.9568548,8.99724702 17.3826613,8.59129464 17.9149194,8.3686756 C17.9814516,8.34248512 18.0479839,8.39486607 18.0346774,8.4734375 C17.7685484,9.41629464 18.1943548,10.4115327 19.0592742,10.8960565 C20.7491935,10.3984375 22,8.84010417 22,6.9936756 C22,6.36510417 21.5608871,5.52700893 20.9620968,4.55796131 C20.9354839,4.50558036 20.8556452,4.53177083 20.8556452,4.58415179 C20.8157258,5.18653274 20.4697581,6.7186756 19.9241935,6.31272321 C19.8842742,6.28653274 19.8709677,6.23415179 19.8709677,6.18177083 L19.8975806,6.06391369 C20.1637097,4.75438988 19.2322581,3.83772321 18.5669355,2.65915179 C18.0346774,1.7031994 18.4471774,0.4984375 18.6201613,0.0662946429 C18.6334677,0.0270089286 18.5802419,-0.0253720238 18.5403226,0.0139136905 C16.3048387,1.62462798 15.9189516,2.72462798 16.0254032,3.45796131 C16.1318548,4.15200893 16.6907258,4.61034226 16.5576613,5.42224702 C16.491129,5.86748512 16.225,6.24724702 15.9322581,6.53534226 C15.9056452,6.56153274 15.8391129,6.57462798 15.7991935,6.57462798 C15.3068548,6.45677083 14.9342742,5.43534226 14.7879032,4.8984375 C14.7612903,4.78058036 14.6016129,4.76748512 14.5483871,4.87224702 C14.0826613,5.68415179 13.75,6.45677083 13.75,6.9936756 C13.75,8.81391369 14.9741935,10.3591518 16.6508065,10.8698661 C16.5443548,10.4508185 16.5576613,9.99248512 16.7306452,9.56034226 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,73 @@
+<ion-header>
+<!--  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Menu Page</ion-title>
+  </ion-navbar>
+    -->
+</ion-header>
+
+<ion-content>
+  <div class="app">
+    <div class="page-menu">
+      <div class="menu-icon">
+        <button ion-button menuToggle>
+          <span></span>
+        </button>
+      </div>
+      <div class="logo">
+        <button ion-button menuToggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <div class="menu-list">
+        <ion-list>
+          <button ion-item *ngFor="let item of items" class="menu-item" (click)="itemTapped($event, item)">
+            <span class="menu-item-icon {{item.icon}}"></span>
+            {{item.title}}            
+          </button>
+          <a href="javascript:void(0);" class="menu-item" >
+            <span class="menu-item-icon icon-home"></span>
+            главная
+          </a>
+          <a href="javascript:void(0);" class="menu-item">
+            <span class="menu-item-icon icon-menu"></span>
+            меню
+          </a>
+          <a href="javascript:void(0);" class="menu-item">
+            <span class="menu-item-icon icon-sale"></span>
+            акции
+          </a>
+          <a href="javascript:void(0);" class="menu-item">
+            <span class="menu-item-icon icon-delivry"></span>
+            доставка
+          </a>
+          <a href="javascript:void(0);" class="menu-item">
+            <span class="menu-item-icon icon-map"></span>
+            контакты
+          </a>
+          <a href="javascript:void(0);" class="menu-item">
+            <span class="menu-item-icon icon-task"></span>
+            опросы
+          </a>
+          <a href="javascript:void(0);" class="menu-item" >
+            <span class="menu-item-icon icon-about"></span>
+            о нас
+          </a>
+        </ion-list>
+        <div class="menu-social">
+          <a href="javascript:void(0);" class="menu-sc">
+            <span class="icon-fb"></span>
+          </a>
+          <a href="javascript:void(0);" class="menu-sc">
+            <span class="icon-vk"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>
